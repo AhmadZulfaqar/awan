@@ -25,6 +25,5 @@ public class TimesheetFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.timesheet_fragment, container, false);
     }
-////
-
+//
 }

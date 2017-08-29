@@ -1,6 +1,7 @@
 package com.example.akarumbi.myintranetapps;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -25,6 +26,14 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.home_fragment, container, false);
+
+        Button btnstaffattandance = (Button) rootView.findViewById(R.id.button2);
+        btnstaffattandance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),Pop.class));
+            }
+        });
 
         Button btnprofile = (Button) rootView.findViewById(R.id.btn_profile);
         btnprofile.setOnClickListener(new View.OnClickListener() {

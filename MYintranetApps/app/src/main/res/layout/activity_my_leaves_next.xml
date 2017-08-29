@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_weight="0.43"
+        android:background="@color/colorPrimary"
         android:text="Leave Type" />
 
     <Button
@@ -22,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:layout_weight="0.46"
+        android:layout_weight="0.41"
+        android:background="@color/colorPrimary"
         android:text="Leave Application List" />
 </LinearLayout>

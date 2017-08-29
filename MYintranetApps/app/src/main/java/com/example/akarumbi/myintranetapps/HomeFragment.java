@@ -55,19 +55,7 @@ public class HomeFragment extends Fragment {
                 manager.beginTransaction().replace(R.id.frame, lmsFragment,lmsFragment.getTag()).commit();
             }
         });
-
-
-        Button btnlms = (Button) rootView.findViewById(R.id.btn_lms);
-        btnlms.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                LmsFragment lmsFragment = new LmsFragment();
-                FragmentManager manager = getFragmentManager();
-                manager.beginTransaction().replace(R.id.frame, lmsFragment,lmsFragment.getTag()).commit();
-            }
-        });
-
-
+        
         // Inflate the layout for this fragment
         return rootView;
     }

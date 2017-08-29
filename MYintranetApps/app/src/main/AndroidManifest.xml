@@ -25,7 +25,10 @@
         <activity android:name=".LmsFragment" />
         <activity android:name=".ForgotPassword" />
         <activity android:name=".CalendarNext" />
-        <activity android:name=".ProfileFragment"></activity>
+        <activity android:name=".ProfileFragment" />
+        <activity android:name=".ExpandableMyLeaves" />
+        <activity android:name=".ExpandableListAdapter" />
+        <activity android:name=".MyLeavesNext"></activity>
     </application>
 
 </manifest>

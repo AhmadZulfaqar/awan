@@ -55,6 +55,8 @@ public class HomeFragment extends Fragment {
                 manager.beginTransaction().replace(R.id.frame, lmsFragment,lmsFragment.getTag()).commit();
             }
         });
+
+
         
         // Inflate the layout for this fragment
         return rootView;

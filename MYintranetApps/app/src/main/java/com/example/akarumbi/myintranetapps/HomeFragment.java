@@ -57,7 +57,7 @@ public class HomeFragment extends Fragment {
         });
 
 
-      /*  Button btnlms = (Button) rootView.findViewById(R.id.btn_lms);
+        Button btnlms = (Button) rootView.findViewById(R.id.btn_lms);
         btnlms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,7 +65,7 @@ public class HomeFragment extends Fragment {
                 FragmentManager manager = getFragmentManager();
                 manager.beginTransaction().replace(R.id.frame, lmsFragment,lmsFragment.getTag()).commit();
             }
-        });*/
+        });
 
 
         // Inflate the layout for this fragment

@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CalendarView;
 
 
 /**
@@ -13,7 +14,8 @@ import android.view.ViewGroup;
  */
 public class TimesheetFragment extends Fragment {
 
-
+    private static final String TAG = "TimesheetFragment";
+    private CalendarView mCalendarview;
     public TimesheetFragment() {
         // Required empty public constructor
     }

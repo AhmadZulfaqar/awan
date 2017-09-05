@@ -29,7 +29,8 @@
         <activity android:name=".ExpandableMyLeaves" />
         <activity android:name=".ExpandableListAdapter" />
         <activity android:name=".MyLeavesNext" />
-        <activity android:name=".Pop"></activity>
+        <activity android:name=".Pop" />
+        <activity android:name=".ApplyTimesheet"></activity>
     </application>
 
 </manifest>

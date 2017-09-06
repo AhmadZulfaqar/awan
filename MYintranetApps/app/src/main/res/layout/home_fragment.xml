@@ -2,12 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="20dp"
-    android:layout_marginEnd="20dp"
-    android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp"
-    android:layout_marginStart="20dp"
-    android:layout_marginTop="5dp"
+    android:background="@drawable/bm"
     android:orientation="vertical"
     android:weightSum="1"
     tools:context="com.example.akarumbi.myintranetapps.HomeFragment">
@@ -18,7 +13,8 @@
         android:layout_width="178dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="160dp"
-        android:background="@android:color/darker_gray"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
         android:text="Staff Attandance :" />
 
     <LinearLayout
@@ -31,20 +27,18 @@
             android:id="@+id/btn_profile"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
             android:layout_weight="1"
             android:background="@android:color/holo_blue_bright"
-            android:padding="10dp"
             android:text="PROFILE" />
 
         <Button
             android:id="@+id/btn_my_timesheet"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
             android:layout_weight="1"
             android:background="@android:color/holo_green_light"
-            android:padding="10dp"
             android:text="My Timesheet" />
     </LinearLayout>
 
@@ -58,9 +52,8 @@
             android:id="@+id/btn_lms"
             android:layout_width="match_parent"
             android:layout_height="160dp"
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
             android:background="@android:color/holo_orange_dark"
-            android:padding="10dp"
             android:text="Lms" />
 
     </LinearLayout>

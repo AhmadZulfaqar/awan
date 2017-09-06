@@ -21,5 +21,14 @@ public class MyLeavesNext extends AppCompatActivity {
                 startActivity(in);
             }
         });
+
+        Button btnleaveapplist = (Button)findViewById(R.id.button9);
+        btnleaveapplist.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(MyLeavesNext.this,LeaveApplicationList_next.class);
+                startActivity(in);
+            }
+        });
     }
 }

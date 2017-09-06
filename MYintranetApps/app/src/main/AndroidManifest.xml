@@ -30,8 +30,12 @@
         <activity android:name=".ExpandableListAdapter" />
         <activity android:name=".MyLeavesNext" />
         <activity android:name=".Pop" />
+<<<<<<< HEAD
+        <activity android:name=".ApplyTimesheet"></activity>
+=======
         <activity android:name=".LeaveApplicationList_next" />
         <activity android:name=".LeaveApplicationListnect2"></activity>
+>>>>>>> 2b7f160efaf0c148830cadf1060829c8d06ff295
     </application>
 
 </manifest>

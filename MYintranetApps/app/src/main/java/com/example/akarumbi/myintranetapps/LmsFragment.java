@@ -12,7 +12,7 @@ import android.widget.Button;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class LmsFragment extends Fragment {
+public class  LmsFragment extends Fragment {
 
 
     public LmsFragment() {

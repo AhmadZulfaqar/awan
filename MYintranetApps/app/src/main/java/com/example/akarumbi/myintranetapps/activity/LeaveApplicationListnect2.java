@@ -1,7 +1,9 @@
-package com.example.akarumbi.myintranetapps;
+package com.example.akarumbi.myintranetapps.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.akarumbi.myintranetapps.R;
 
 public class LeaveApplicationListnect2 extends AppCompatActivity {
 

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,22 +11,23 @@
     android:layout_height="match_parent"
     android:background="@drawable/bm"
     android:orientation="vertical"
-    tools:context="com.example.akarumbi.myintranetapps.activity.ForgotPassword">
+    tools:context="com.example.akarumbi.myintranetapps.fragmenttabbed.LeaveAppList">
+    android:weightSum="1">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        app:srcCompat="@drawable/logo1" />
+        app:srcCompat="@drawable/metech" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView25"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
-        android:text="Forgot Password"
+        android:text="Leave Application List"
         android:textColor="@android:color/white" />
 
     <LinearLayout
@@ -33,37 +39,45 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="30dp"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
-                android:textColor="@android:color/white"
                 android:layout_height="wrap_content"
-                android:text="Username" />
+                android:textColor="@android:color/white"
+                android:text="Application Type" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@android:color/white"
                 android:layout_marginTop="20dp"
-                android:text="Email" />
+                android:textColor="@android:color/white"
+                android:text="Application Status" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:text="Date From" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@android:color/white"
                 android:layout_marginTop="25dp"
-                android:text="Verification Code" />
+                android:textColor="@android:color/white"
+                android:text="Date To" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="20dp"
             android:orientation="vertical">
 
             <EditText
@@ -71,13 +85,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:textColor="@android:color/white"
-                android:textColorHighlight="@android:color/white"
-                android:textColorHint="@android:color/white" />
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/editText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -94,20 +112,14 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="115dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
-        android:background="@android:color/holo_orange_dark"
-        android:text="fD943" />
-
-    <Button
         android:id="@+id/button5"
         android:layout_width="277dp"
-        android:layout_height="62dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"
         android:background="@color/colorPrimary"
-        android:text="Submit" />
+        android:text="Search" />
 
 </LinearLayout>
+    </ScrollView>
+

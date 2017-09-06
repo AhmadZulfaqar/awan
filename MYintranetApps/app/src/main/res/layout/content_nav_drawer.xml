@@ -7,7 +7,7 @@
     android:background="@drawable/bm"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.akarumbi.myintranetapps.NavDrawer"
+    tools:context="com.example.akarumbi.myintranetapps.fragmentnavdrawer.NavDrawer"
     tools:showIn="@layout/app_bar_nav_drawer">
 
     <FrameLayout

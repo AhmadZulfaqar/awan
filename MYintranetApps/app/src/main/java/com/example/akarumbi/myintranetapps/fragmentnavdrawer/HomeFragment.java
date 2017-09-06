@@ -1,4 +1,4 @@
-package com.example.akarumbi.myintranetapps;
+package com.example.akarumbi.myintranetapps.fragmentnavdrawer;
 
 
 import android.content.Intent;
@@ -9,6 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import com.example.akarumbi.myintranetapps.activity.Pop;
+import com.example.akarumbi.myintranetapps.R;
 
 
 /**

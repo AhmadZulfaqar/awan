@@ -4,13 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.akarumbi.myintranetapps.activity.CalendarNext">
+    tools:context="com.example.akarumbi.myintranetapps.fragmenttabbed.LeaveType">
 
-    <Button
-        android:id="@+id/btn_calendar_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BACK"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="195dp" />
 </android.support.constraint.ConstraintLayout>

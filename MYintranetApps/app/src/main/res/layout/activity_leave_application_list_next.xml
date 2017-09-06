@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bm"
     android:orientation="vertical"
-    tools:context="com.example.akarumbi.myintranetapps.LeaveApplicationList_next"
+    tools:context="com.example.akarumbi.myintranetapps.activity.LeaveApplicationList_next"
     android:weightSum="1">
 
     <ImageView
@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        app:srcCompat="@drawable/b4" />
+        app:srcCompat="@drawable/metech" />
 
     <TextView
         android:id="@+id/textView25"
@@ -22,7 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
-        android:text="Leave Application List" />
+        android:text="Leave Application List"
+        android:textColor="@android:color/white" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,6 +41,7 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
                 android:text="Application Type" />
 
             <TextView
@@ -47,6 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
                 android:text="Application Status" />
 
             <TextView
@@ -54,6 +57,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
                 android:text="Date From" />
 
             <TextView
@@ -61,6 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
+                android:textColor="@android:color/white"
                 android:text="Date To" />
         </LinearLayout>
 

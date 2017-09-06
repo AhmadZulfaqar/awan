@@ -1,4 +1,4 @@
-package com.example.akarumbi.myintranetapps;
+package com.example.akarumbi.myintranetapps.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner;
+
+import com.example.akarumbi.myintranetapps.R;
 
 public class ApplyTimesheet extends AppCompatActivity {
 

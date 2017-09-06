@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,25 +17,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NavDrawer"
+            android:name=".fragmentnavdrawer.NavDrawer"
             android:label="@string/title_activity_nav_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".HomeFragment" />
-        <activity android:name=".TimesheetFragment" />
-        <activity android:name=".LmsFragment" />
-        <activity android:name=".ForgotPassword" />
-        <activity android:name=".CalendarNext" />
-        <activity android:name=".ProfileFragment" />
-        <activity android:name=".ExpandableMyLeaves" />
-        <activity android:name=".ExpandableListAdapter" />
-        <activity android:name=".MyLeavesNext" />
-        <activity android:name=".Pop" />
-<<<<<<< HEAD
-        <activity android:name=".ApplyTimesheet"></activity>
-=======
-        <activity android:name=".LeaveApplicationList_next" />
-        <activity android:name=".LeaveApplicationListnect2"></activity>
->>>>>>> 2b7f160efaf0c148830cadf1060829c8d06ff295
+        <activity android:name=".fragmentnavdrawer.HomeFragment" />
+        <activity android:name=".fragmentnavdrawer.TimesheetFragment" />
+        <activity android:name=".fragmentnavdrawer.LmsFragment" />
+        <activity android:name=".activity.ForgotPassword" />
+        <activity android:name=".activity.CalendarNext" />
+        <activity android:name=".fragmentnavdrawer.ProfileFragment" />
+        <activity android:name=".activity.ExpandableMyLeaves" />
+        <activity android:name=".activity.ExpandableListAdapter" />
+        <activity android:name=".activity.MyLeavesNext" />
+        <activity android:name=".activity.Pop" />
+        <!-- <<<<<<< HEAD -->
+        <activity android:name=".activity.ApplyTimesheet" />
+        <!-- ======= -->
+        <activity android:name=".activity.LeaveApplicationList_next" />
+        <activity android:name=".activity.LeaveApplicationListnect2" />
+        <!-- &gt;>>>>>> 2b7f160efaf0c148830cadf1060829c8d06ff295 -->
+        <activity
+            android:name=".fragmenttabbed.MyLeaveTab"
+            android:label="@string/title_activity_my_leave_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".fragmenttabbed.LeaveType" />
+        <activity android:name=".fragmenttabbed.LeaveAppList"></activity>
     </application>
 
 </manifest>

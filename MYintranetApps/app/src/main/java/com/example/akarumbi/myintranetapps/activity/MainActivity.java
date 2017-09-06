@@ -1,4 +1,4 @@
-package com.example.akarumbi.myintranetapps;
+package com.example.akarumbi.myintranetapps.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.akarumbi.myintranetapps.R;
+import com.example.akarumbi.myintranetapps.fragmentnavdrawer.NavDrawer;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

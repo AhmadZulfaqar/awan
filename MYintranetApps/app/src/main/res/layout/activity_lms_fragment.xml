@@ -7,7 +7,7 @@
     android:layout_margin="5dp"
     android:background="@drawable/bm"
     android:orientation="vertical"
-    tools:context="com.example.akarumbi.myintranetapps.LmsFragment">
+    tools:context="com.example.akarumbi.myintranetapps.fragmentnavdrawer.LmsFragment">
 
 
     <LinearLayout

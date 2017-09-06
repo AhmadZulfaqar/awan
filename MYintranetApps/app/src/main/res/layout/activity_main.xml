@@ -7,23 +7,24 @@
     android:background="@drawable/bm"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.akarumbi.myintranetapps.MainActivity">
+    tools:context="com.example.akarumbi.myintranetapps.activity.MainActivity">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="130dp"
         android:layout_margin="20dp"
-        app:srcCompat="@drawable/metech" />
+        app:srcCompat="@drawable/logo1" />
 
     <LinearLayout
         android:layout_width="262dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="55dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:layout_weight="0.34"
         android:background="@android:color/white"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="30dp">
 
         <EditText
             android:id="@+id/editText"
@@ -31,7 +32,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/btn_timesheet"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
             android:ems="10"
             android:hint="Username"
             android:inputType="textPersonName" />
@@ -54,6 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
+        android:textColor="@android:color/white"
         android:text="Stay signed in" />
 
     <Button
@@ -77,7 +78,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="20dp"
         android:text="Forgot Password?"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/white"
         android:textSize="18sp" />
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.akarumbi.myintranetapps;
+package com.example.akarumbi.myintranetapps.fragmentnavdrawer;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +13,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
+import com.example.akarumbi.myintranetapps.activity.MainActivity;
+import com.example.akarumbi.myintranetapps.R;
 
 public class NavDrawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

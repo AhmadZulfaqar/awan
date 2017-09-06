@@ -5,14 +5,14 @@
     android:background="@drawable/bm"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.akarumbi.myintranetapps.HomeFragment">
+    tools:context="com.example.akarumbi.myintranetapps.fragmentnavdrawer.HomeFragment">
 
 
     <Button
         android:id="@+id/button2"
         android:layout_width="178dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="160dp"
+        android:layout_marginLeft="195dp"
         android:layout_marginTop="20dp"
         android:background="@color/colorPrimary"
         android:text="Staff Attandance :" />

@@ -1,8 +1,10 @@
-package com.example.akarumbi.myintranetapps;
+package com.example.akarumbi.myintranetapps.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+
+import com.example.akarumbi.myintranetapps.R;
 
 public class Pop extends AppCompatActivity {
 

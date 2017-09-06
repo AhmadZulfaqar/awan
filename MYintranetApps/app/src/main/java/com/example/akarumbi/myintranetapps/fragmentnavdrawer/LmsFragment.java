@@ -1,4 +1,4 @@
-package com.example.akarumbi.myintranetapps;
+package com.example.akarumbi.myintranetapps.fragmentnavdrawer;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import com.example.akarumbi.myintranetapps.fragmenttabbed.MyLeaveTab;
+import com.example.akarumbi.myintranetapps.activity.MyLeavesNext;
+import com.example.akarumbi.myintranetapps.R;
 
 
 /**
@@ -32,6 +36,15 @@ public class  LmsFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(getActivity(),MyLeavesNext.class);
+                startActivity(in);
+            }
+        });
+
+        Button btnreport = (Button) rootView.findViewById(R.id.button7);
+        btnreport.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(),MyLeaveTab.class);
                 startActivity(in);
             }
         });

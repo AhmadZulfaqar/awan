@@ -1,8 +1,10 @@
-package com.example.akarumbi.myintranetapps;
+package com.example.akarumbi.myintranetapps.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ExpandableListView;
+
+import com.example.akarumbi.myintranetapps.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

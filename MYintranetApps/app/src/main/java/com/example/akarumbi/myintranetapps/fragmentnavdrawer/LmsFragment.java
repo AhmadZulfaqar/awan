@@ -39,7 +39,7 @@ public class  LmsFragment extends Fragment {
                 startActivity(in);
             }
         });
-
+//
         Button btnreport = (Button) rootView.findViewById(R.id.button7);
         btnreport.setOnClickListener(new View.OnClickListener() {
             @Override
